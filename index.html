@@ -8,18 +8,18 @@
 </head>
 <body>
 
-<div id="curso"></div>
+<div id="cursos"></div>
 
 <script src="cursos.js"></script>
 <script src="Persona.js"></script>
 <script>
 
-const div = document.getElementById("curso");
+const div = document.getElementById("cursos");
 
 
-curso.curso.forEach(element => {
+cursoA.curso.forEach(element => {
   
-   const persona = new Persona(element.nombre, element.apellido); 
+   const persona = new Persona(element.nombre, element.apellido);
    if(element.hobbie){
     console.log("indefinido");
     persona.setHobbie(element.hobbie);

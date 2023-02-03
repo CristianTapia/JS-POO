@@ -1,4 +1,4 @@
-const curso={
+const cursoA={
 	"nombreCurso": "js vespertino",
 	"curso": [{
 			"nombre": "Jimena",
@@ -16,3 +16,5 @@ const curso={
 	]
 
 }
+
+console.log(cursoA)
